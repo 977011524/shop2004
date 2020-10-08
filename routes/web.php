@@ -24,3 +24,13 @@ Route::any('/user/update/{id}','Uses@update');
 
 
 Route::get('/create','Goods@create');
+
+//用户添加
+Route::get('/create','AdminController@create');
+Route::post('/admin/insert','AdminController@insert');
+Route::get('/index','AdminController@index');
+Route::any('delete/{id}','AdminController@delete');
+Route::get('edit/{id}','AdminController@edit');
+Route::post('/admin/update/{id}','AdminController@update');
+Route::get('/login','AdminController@login');
+Route::post('/logindo','AdminController@logindo');
