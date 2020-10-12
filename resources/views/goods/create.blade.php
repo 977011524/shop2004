@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="{{url('/goods/insert')}}" method="POST">
         <table border='1'>
             <tr>
                 <td>用户名</td>

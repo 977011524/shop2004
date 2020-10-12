@@ -10,3 +10,4 @@ class UserModel extends Model
     protected $primaryKey='id';
     public $timestamps=false;
 }
+

@@ -20,7 +20,7 @@
                 <td>{{$v->id}}</td>
                 <td>{{$v->user_name}}</td>
                 <td>{{$v->email}}</td>
-                <td>{{$v->reg_time}}</td>
+                <td>{{date('Y-m-d',$v->reg_time)}}</td>
                 <td>
                     <a href="{{'delete/'.$v->id}}">删除</a>
                     <a href="{{'edit/'.$v->id}}">修改</a>
